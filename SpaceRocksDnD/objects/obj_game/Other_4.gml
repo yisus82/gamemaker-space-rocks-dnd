@@ -5,6 +5,33 @@
 /// @DnDArgument : "value" "rm_game"
 if(room == rm_game)
 {
+	/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
+	/// @DnDVersion : 1
+	/// @DnDHash : 6688CD16
+	/// @DnDParent : 5913B012
+	/// @DnDArgument : "soundid" "msc_song"
+	/// @DnDSaveInfo : "soundid" "msc_song"
+	var l6688CD16_0 = msc_song;
+	if (audio_is_playing(l6688CD16_0))
+	{
+		/// @DnDAction : YoYo Games.Audio.Stop_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 17FB375F
+		/// @DnDParent : 6688CD16
+		/// @DnDArgument : "soundid" "msc_song"
+		/// @DnDSaveInfo : "soundid" "msc_song"
+		audio_stop_sound(msc_song);
+	}
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 1F1F50CC
+	/// @DnDParent : 5913B012
+	/// @DnDArgument : "soundid" "msc_song"
+	/// @DnDArgument : "loop" "1"
+	/// @DnDSaveInfo : "soundid" "msc_song"
+	audio_play_sound(msc_song, 0, 1);
+
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 71DFF232

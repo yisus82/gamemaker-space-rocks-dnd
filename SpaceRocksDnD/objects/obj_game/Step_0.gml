@@ -14,6 +14,14 @@ if(room == rm_game)
 	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 	if(__dnd_score >= 1000)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 57959294
+		/// @DnDParent : 6475D050
+		/// @DnDArgument : "soundid" "snd_win"
+		/// @DnDSaveInfo : "soundid" "snd_win"
+		audio_play_sound(snd_win, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 4D00FC3A
@@ -31,6 +39,14 @@ if(room == rm_game)
 	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 	if(__dnd_lives <= 0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 001771AB
+		/// @DnDParent : 2F5752B5
+		/// @DnDArgument : "soundid" "snd_lose"
+		/// @DnDSaveInfo : "soundid" "snd_lose"
+		audio_play_sound(snd_lose, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 5B156928

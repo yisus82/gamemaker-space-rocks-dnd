@@ -15,3 +15,12 @@ cameraY = 0;
 target = obj_ship;
 cameraWidth = 500;
 cameraHeight = 500;
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 7A6FE239
+/// @DnDInput : 2
+/// @DnDArgument : "function" "display_set_gui_size"
+/// @DnDArgument : "arg" "cameraWidth"
+/// @DnDArgument : "arg_1" "cameraHeight"
+display_set_gui_size(cameraWidth, cameraHeight);

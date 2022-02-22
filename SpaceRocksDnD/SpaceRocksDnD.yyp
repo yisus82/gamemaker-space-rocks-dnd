@@ -4,6 +4,8 @@
     {"id":{"name":"spr_starfield_0","path":"sprites/spr_starfield_0/spr_starfield_0.yy",},"order":9,},
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},"order":0,},
     {"id":{"name":"spr_asteroid_small","path":"sprites/spr_asteroid_small/spr_asteroid_small.yy",},"order":1,},
+    {"id":{"name":"spr_enemy_raider","path":"sprites/spr_enemy_raider/spr_enemy_raider.yy",},"order":14,},
+    {"id":{"name":"spr_enemy_hunter","path":"sprites/spr_enemy_hunter/spr_enemy_hunter.yy",},"order":13,},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},"order":3,},
     {"id":{"name":"spr_starfield_1","path":"sprites/spr_starfield_1/spr_starfield_1.yy",},"order":10,},
     {"id":{"name":"spr_asteroid_huge","path":"sprites/spr_asteroid_huge/spr_asteroid_huge.yy",},"order":3,},
@@ -29,6 +31,7 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":7,},
     {"id":{"name":"snd_die","path":"sounds/snd_die/snd_die.yy",},"order":1,},
     {"id":{"name":"snd_zap","path":"sounds/snd_zap/snd_zap.yy",},"order":5,},
+    {"id":{"name":"spr_enemy_brute_strip5","path":"sprites/spr_enemy_brute_strip5/spr_enemy_brute_strip5.yy",},"order":12,},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
   ],
   "Options": [

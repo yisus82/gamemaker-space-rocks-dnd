@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_asteroid_small",
-    "path": "sprites/spr_asteroid_small/spr_asteroid_small.yy",
+    "name": "spr_enemy_raider",
+    "path": "sprites/spr_enemy_raider/spr_enemy_raider.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_faction_neutral",
-    "path": "objects/obj_faction_neutral/obj_faction_neutral.yy",
+    "name": "obj_parent_enemy",
+    "path": "objects/obj_parent_enemy/obj_parent_enemy.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,18 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Neutral",
-    "path": "folders/Objects/Neutral.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_asteroid",
+  "name": "obj_raider",
   "tags": [],
   "resourceType": "GMObject",
 }

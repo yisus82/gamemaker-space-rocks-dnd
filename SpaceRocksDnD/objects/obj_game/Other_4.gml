@@ -49,4 +49,37 @@ if(room == rm_game)
 	/// @DnDArgument : "arg_1" "40"
 	/// @DnDSaveInfo : "script" "spawn_off_camera"
 	script_execute(spawn_off_camera, obj_asteroid, 40);
+
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 2BE73562
+	/// @DnDInput : 2
+	/// @DnDParent : 5913B012
+	/// @DnDArgument : "script" "spawn_off_camera"
+	/// @DnDArgument : "arg" "obj_raider"
+	/// @DnDArgument : "arg_1" "8"
+	/// @DnDSaveInfo : "script" "spawn_off_camera"
+	script_execute(spawn_off_camera, obj_raider, 8);
+
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 076EF10C
+	/// @DnDInput : 2
+	/// @DnDParent : 5913B012
+	/// @DnDArgument : "script" "spawn_off_camera"
+	/// @DnDArgument : "arg" "obj_hunter"
+	/// @DnDArgument : "arg_1" "5"
+	/// @DnDSaveInfo : "script" "spawn_off_camera"
+	script_execute(spawn_off_camera, obj_hunter, 5);
+
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 1F5BA44E
+	/// @DnDInput : 2
+	/// @DnDParent : 5913B012
+	/// @DnDArgument : "script" "spawn_off_camera"
+	/// @DnDArgument : "arg" "obj_brute"
+	/// @DnDArgument : "arg_1" "3"
+	/// @DnDSaveInfo : "script" "spawn_off_camera"
+	script_execute(spawn_off_camera, obj_brute, 3);
 }

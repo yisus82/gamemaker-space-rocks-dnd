@@ -20,5 +20,4 @@ __dnd_lives = real(3);
 /// @DnDVersion : 1
 /// @DnDHash : 1513AD5C
 /// @DnDArgument : "font" "fnt_text"
-/// @DnDSaveInfo : "font" "fnt_text"
 draw_set_font(fnt_text);

@@ -15,7 +15,6 @@ image_index = hp - 1;
 /// @DnDHash : 1090043D
 /// @DnDArgument : "obj" "obj_ship"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "obj" "obj_ship"
 var l1090043D_0 = false;
 l1090043D_0 = instance_exists(obj_ship);
 if(!l1090043D_0)

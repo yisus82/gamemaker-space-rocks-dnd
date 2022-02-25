@@ -8,7 +8,6 @@ event_inherited();
 /// @DnDHash : 22446F05
 /// @DnDArgument : "obj" "obj_ship"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "obj" "obj_ship"
 var l22446F05_0 = false;
 l22446F05_0 = instance_exists(obj_ship);
 if(!l22446F05_0)
@@ -122,7 +121,6 @@ if(dist < 250)
 		/// @DnDArgument : "script" "create_bullet"
 		/// @DnDArgument : "arg" "dir"
 		/// @DnDArgument : "arg_1" "8"
-		/// @DnDSaveInfo : "script" "create_bullet"
 		script_execute(create_bullet, dir, 8);
 	
 		/// @DnDAction : YoYo Games.Common.Variable

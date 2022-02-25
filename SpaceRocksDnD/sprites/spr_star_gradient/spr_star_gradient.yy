@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_star_gradient","path":"sprites/spr_star_gradient/spr_star_gradient.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_star_gradient",
     "tags": [],
     "resourceType": "GMSequence",

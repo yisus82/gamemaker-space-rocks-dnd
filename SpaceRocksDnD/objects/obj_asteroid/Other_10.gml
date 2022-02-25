@@ -2,7 +2,6 @@
 /// @DnDVersion : 1
 /// @DnDHash : 080D73A3
 /// @DnDArgument : "soundid" "snd_hurt"
-/// @DnDSaveInfo : "soundid" "snd_hurt"
 audio_play_sound(snd_hurt, 0, 0);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
@@ -33,7 +32,6 @@ if(sprite_index == spr_asteroid_huge)
 		/// @DnDArgument : "var" "newAsteroid"
 		/// @DnDArgument : "var_temp" "1"
 		/// @DnDArgument : "objectid" "obj_asteroid"
-		/// @DnDSaveInfo : "objectid" "obj_asteroid"
 		var newAsteroid = instance_create_layer(x + 0, y + 0, "Instances", obj_asteroid);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
@@ -69,7 +67,6 @@ if(sprite_index == spr_asteroid_medium)
 		/// @DnDArgument : "var" "newAsteroid"
 		/// @DnDArgument : "var_temp" "1"
 		/// @DnDArgument : "objectid" "obj_asteroid"
-		/// @DnDSaveInfo : "objectid" "obj_asteroid"
 		var newAsteroid = instance_create_layer(x + 0, y + 0, "Instances", obj_asteroid);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
@@ -95,7 +92,6 @@ repeat(10)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_debris"
-	/// @DnDSaveInfo : "objectid" "obj_debris"
 	instance_create_layer(x + 0, y + 0, "Instances", obj_debris);
 }
 

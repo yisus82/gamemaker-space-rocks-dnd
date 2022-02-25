@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_brute_strip5","path":"sprites/spr_enemy_brute_strip5/spr_enemy_brute_strip5.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_brute_strip5",
     "tags": [],
     "resourceType": "GMSequence",

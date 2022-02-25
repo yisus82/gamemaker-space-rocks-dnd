@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_raider","path":"sprites/spr_enemy_raider/spr_enemy_raider.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_raider",
     "tags": [],
     "resourceType": "GMSequence",

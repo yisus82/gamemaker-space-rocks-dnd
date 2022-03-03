@@ -33,6 +33,7 @@
     {"id":{"name":"spr_asteroid_medium","path":"sprites/spr_asteroid_medium/spr_asteroid_medium.yy",},"order":2,},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":0,},
     {"id":{"name":"obj_faction","path":"objects/obj_faction/obj_faction.yy",},"order":6,},
+    {"id":{"name":"initialize_bullet","path":"scripts/initialize_bullet/initialize_bullet.yy",},"order":2,},
     {"id":{"name":"snd_laser","path":"sounds/snd_laser/snd_laser.yy",},"order":6,},
     {"id":{"name":"obj_faction_ally","path":"objects/obj_faction_ally/obj_faction_ally.yy",},"order":1,},
     {"id":{"name":"snd_hurt","path":"sounds/snd_hurt/snd_hurt.yy",},"order":2,},

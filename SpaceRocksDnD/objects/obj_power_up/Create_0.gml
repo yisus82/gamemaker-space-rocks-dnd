@@ -10,9 +10,9 @@ var powerup = floor(random_range(0, 5 + 1));
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 58CCF644
-/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "image_index"
-image_index = 1;
+image_index = 3;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1

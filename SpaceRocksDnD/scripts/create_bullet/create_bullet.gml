@@ -213,7 +213,66 @@ function create_bullet(bulletDirection, bulletSpeed, weapontType=-1)
 		/// @DnDParent : 2A1D987D
 		/// @DnDArgument : "const" "2"
 		case 2:
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1
+			/// @DnDHash : 700CC987
+			/// @DnDParent : 5D3749E7
+			/// @DnDArgument : "soundid" "snd_zap"
+			/// @DnDSaveInfo : "soundid" "snd_zap"
+			audio_play_sound(snd_zap, 0, 0);
 		
+			/// @DnDAction : YoYo Games.Common.Temp_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 07ED87BC
+			/// @DnDParent : 5D3749E7
+			/// @DnDArgument : "var" "sep"
+			/// @DnDArgument : "value" "7"
+			var sep = 7;
+		
+			/// @DnDAction : YoYo Games.Loops.For_Loop
+			/// @DnDVersion : 1
+			/// @DnDHash : 58A5307E
+			/// @DnDParent : 5D3749E7
+			/// @DnDArgument : "init_temp" "1"
+			/// @DnDArgument : "cond" "i < 4"
+			for(var i = 0; i < 4; i += 1) {
+				/// @DnDAction : YoYo Games.Common.Temp_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3921219A
+				/// @DnDParent : 58A5307E
+				/// @DnDArgument : "var" "bulletAngle"
+				/// @DnDArgument : "value" "bulletDirection + i * 90"
+				var bulletAngle = bulletDirection + i * 90;
+			
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 38523A6D
+				/// @DnDParent : 58A5307E
+				/// @DnDArgument : "xpos" "lengthdir_x(sep, bulletAngle)"
+				/// @DnDArgument : "xpos_relative" "1"
+				/// @DnDArgument : "ypos" "lengthdir_x(sep, bulletAngle)"
+				/// @DnDArgument : "ypos_relative" "1"
+				/// @DnDArgument : "var" "newBullet"
+				/// @DnDArgument : "var_temp" "1"
+				/// @DnDArgument : "objectid" "obj_bullet"
+				/// @DnDSaveInfo : "objectid" "obj_bullet"
+				var newBullet = instance_create_layer(x + lengthdir_x(sep, bulletAngle), y + lengthdir_x(sep, bulletAngle), "Instances", obj_bullet);
+			
+				/// @DnDAction : YoYo Games.Common.Execute_Script
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 1B9A4851
+				/// @DnDInput : 6
+				/// @DnDParent : 58A5307E
+				/// @DnDArgument : "script" "initialize_bullet"
+				/// @DnDArgument : "arg" "bulletAngle"
+				/// @DnDArgument : "arg_1" "bulletSpeed"
+				/// @DnDArgument : "arg_2" "faction"
+				/// @DnDArgument : "arg_3" "image_blend"
+				/// @DnDArgument : "arg_4" "id"
+				/// @DnDArgument : "arg_5" "newBullet"
+				/// @DnDSaveInfo : "script" "initialize_bullet"
+				script_execute(initialize_bullet, bulletAngle, bulletSpeed, faction, image_blend, id, newBullet);
+			}
 			break;
 	
 		/// @DnDAction : YoYo Games.Switch.Case
@@ -222,7 +281,66 @@ function create_bullet(bulletDirection, bulletSpeed, weapontType=-1)
 		/// @DnDParent : 2A1D987D
 		/// @DnDArgument : "const" "3"
 		case 3:
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1
+			/// @DnDHash : 34A02196
+			/// @DnDParent : 72869DE4
+			/// @DnDArgument : "soundid" "snd_zap"
+			/// @DnDSaveInfo : "soundid" "snd_zap"
+			audio_play_sound(snd_zap, 0, 0);
 		
+			/// @DnDAction : YoYo Games.Common.Temp_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 5375B391
+			/// @DnDParent : 72869DE4
+			/// @DnDArgument : "var" "sep"
+			/// @DnDArgument : "value" "7"
+			var sep = 7;
+		
+			/// @DnDAction : YoYo Games.Loops.For_Loop
+			/// @DnDVersion : 1
+			/// @DnDHash : 1BC89ADA
+			/// @DnDParent : 72869DE4
+			/// @DnDArgument : "init_temp" "1"
+			/// @DnDArgument : "cond" "i < 8"
+			for(var i = 0; i < 8; i += 1) {
+				/// @DnDAction : YoYo Games.Common.Temp_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 49803FD6
+				/// @DnDParent : 1BC89ADA
+				/// @DnDArgument : "var" "bulletAngle"
+				/// @DnDArgument : "value" "bulletDirection + i * 45"
+				var bulletAngle = bulletDirection + i * 45;
+			
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 1F91BA20
+				/// @DnDParent : 1BC89ADA
+				/// @DnDArgument : "xpos" "lengthdir_x(sep, bulletAngle)"
+				/// @DnDArgument : "xpos_relative" "1"
+				/// @DnDArgument : "ypos" "lengthdir_x(sep, bulletAngle)"
+				/// @DnDArgument : "ypos_relative" "1"
+				/// @DnDArgument : "var" "newBullet"
+				/// @DnDArgument : "var_temp" "1"
+				/// @DnDArgument : "objectid" "obj_bullet"
+				/// @DnDSaveInfo : "objectid" "obj_bullet"
+				var newBullet = instance_create_layer(x + lengthdir_x(sep, bulletAngle), y + lengthdir_x(sep, bulletAngle), "Instances", obj_bullet);
+			
+				/// @DnDAction : YoYo Games.Common.Execute_Script
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 6CA2FFCF
+				/// @DnDInput : 6
+				/// @DnDParent : 1BC89ADA
+				/// @DnDArgument : "script" "initialize_bullet"
+				/// @DnDArgument : "arg" "bulletAngle"
+				/// @DnDArgument : "arg_1" "bulletSpeed"
+				/// @DnDArgument : "arg_2" "faction"
+				/// @DnDArgument : "arg_3" "image_blend"
+				/// @DnDArgument : "arg_4" "id"
+				/// @DnDArgument : "arg_5" "newBullet"
+				/// @DnDSaveInfo : "script" "initialize_bullet"
+				script_execute(initialize_bullet, bulletAngle, bulletSpeed, faction, image_blend, id, newBullet);
+			}
 			break;
 	
 		/// @DnDAction : YoYo Games.Switch.Case

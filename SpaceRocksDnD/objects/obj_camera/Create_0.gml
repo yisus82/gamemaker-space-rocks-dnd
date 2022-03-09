@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3C744189
-/// @DnDInput : 5
+/// @DnDInput : 6
 /// @DnDArgument : "expr_2" "obj_ship"
 /// @DnDArgument : "expr_3" "500"
 /// @DnDArgument : "expr_4" "500"
@@ -10,11 +10,13 @@
 /// @DnDArgument : "var_2" "target"
 /// @DnDArgument : "var_3" "cameraWidth"
 /// @DnDArgument : "var_4" "cameraHeight"
+/// @DnDArgument : "var_5" "cameraShake"
 cameraX = 0;
 cameraY = 0;
 target = obj_ship;
 cameraWidth = 500;
 cameraHeight = 500;
+cameraShake = 0;
 
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1

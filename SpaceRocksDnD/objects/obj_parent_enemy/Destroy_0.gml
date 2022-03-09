@@ -5,6 +5,17 @@
 /// @DnDSaveInfo : "soundid" "snd_die"
 audio_play_sound(snd_die, 0, 0);
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 27A11A61
+/// @DnDApplyTo : {obj_camera}
+/// @DnDArgument : "expr" "4"
+/// @DnDArgument : "var" "cameraShake"
+with(obj_camera) {
+cameraShake = 4;
+
+}
+
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
 /// @DnDHash : 1063495A
